@@ -1,0 +1,58 @@
+header, nav, footer
+{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+@media (max-width: 600px)
+{
+    nav ul {
+        flex-direction: column;
+    }
+    .seccioness {
+        flex-direction: column;
+    }
+}
+ 
+@media (min-width: 601px)
+{
+    .seccioness {
+        flex-direction: row;
+    }
+}
+a
+{
+    color: yellow;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.epa
+{
+    display: flex;
+    gap: 20px;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+}
+
+#tx1,#tx2
+{
+    font-size: large;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+}
+#im1,#im2
+{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+}
